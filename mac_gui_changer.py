@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 mac_gui_changer.py
 Cross-platform GUI MAC Address Changer with Windows registry fallback.
@@ -10,7 +9,7 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 import subprocess, platform, random, re
 from pathlib import Path
-import sys # Import sys for printing to stderr
+import sys 
 
 # ---------------- Utility ----------------
 
